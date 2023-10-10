@@ -1,0 +1,97 @@
+body{
+  background: #000 !important;
+  overflow-x: hidden;
+}
+nav{
+  background-color: black;
+  height: 100px;
+  text-align: center;
+  justify-content: center;
+  position: fixed !important;
+  width: 100%;
+}
+.nav-link{
+  color: #d4c6c6 !important;
+}
+.nav-item a:hover{
+  color: #27a776 !important;
+}
+.navbar-brand{
+  color: white !important;
+  font-size: 30px !important;
+}
+.iconf1{
+  position: absolute;
+  right: 50px;
+  font-size: 20px;
+}
+.iconf1 a{
+  color: whitesmoke;
+}
+.iconf2:hover{
+  color: #27a776;
+}
+.iconf3:hover{
+  color: #27a776;
+}
+.iconf4:hover{
+  color: #27a776;
+}
+.iconf5:hover{
+  color: #27a776;
+}
+svg{
+  color: green;
+}
+.heading{
+  color:whitesmoke;
+  text-align: center;
+  justify-content: center;
+  padding-top: 120px;
+  z-index: 1;
+}
+.heading p{
+  color: #d4c6c6;
+}
+.heading button{
+  background-color: #27a776;
+  color: white;
+  height: 45px;
+  width: 240px;
+  border: none;
+  border-radius: 5px;
+}
+.heading button:hover{
+  background-color:#156947;
+}
+.divs{
+  border-radius: 17px;
+  padding-left: 10px;
+  padding-right: 10px;
+  transition: 0.1s ease-in-out;
+}
+.divs:hover{
+  transform: scale(1.08);
+  transition: 0.1s ease-in-out;
+}
+.container{
+  margin-top: 70px;
+}
+.copy p{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: whitesmoke;
+}
+.copy a{
+  color: #27a776;
+  text-decoration: none;
+}
+.copy a:hover{
+  color: #ff004f;
+}
+.nav-item{
+  position: relative;
+  right: 90px;
+  padding-left: 25px;
+}
